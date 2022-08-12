@@ -1,6 +1,6 @@
 // tiposDeDatos
 
-// PRIMITIVOS 
+// PRIMITIVOS String, Number, Boolean, Null y Undefined
 
 let myAge = "30"; // Number // BigInt + NaN
 let myName = "Víctor"; // String

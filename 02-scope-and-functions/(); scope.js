@@ -1,13 +1,14 @@
+
 // // Global scope
 
-// let globalVariable = 15;
+let globalVariable = 15;
 
-// function greetings() {
-//     // Local scope
+function greetings() {
+    // Local scope
 
-//     let localVariable = 10;
-//     console.log(globalVariable, localVariable); // 15 10
-// }
+    let localVariable = 10;
+    console.log(globalVariable, localVariable); // 15 10
+}
 
 // greetings();
 

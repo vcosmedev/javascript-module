@@ -19,3 +19,10 @@
 // Las declaraciones con constantes, deben ser inicializadas.
 
 
+let elements = ['Desktop', 'Tablet', 'Mobile']; // Variable tipo ARRAY -> conjunto de elementos
+let person = {   // Variable tipo OBJECT -> conjunto de data relaconada y/o funcionalidad.
+    name: 'Víctor',
+    surname: 'Cosme',
+    age: 30
+}
+

@@ -1,33 +1,29 @@
 
-// 1 - Crear una funcion que sume 2 números y regrese el resultado
+/* 1 - Crear una función que altere el valor de una variable global cada vez que se ejecuta (no debe retornar nada) */
 
-// function suma () {}
-// de expresión
-let suma = function (numberOne,numberTwo) {
-    let result = numberOne + numberTwo;
-    return result;
+// Función Declarativa
+
+let globalVariable = 0;
+
+function myFirstFunction(value) {
+    globalVariable = value + 1; // ¿Simplificar esta formulación? ¿Sintaxis '+= value'?
+    console.log(globalVariable)
 }
 
-console.log(suma(5,5));
-console.log(`El resultado de la suma es: ${suma(5,5)}`);
+myFirstFunction(5);
 
 
-/* 2 - Crear una funcion que recibe un nombre, que devuelve saludo 
-por nombre y si no lo provee saludo simplemente amigo */
-// function de expresión
+/* 2 - Crear una función que reciba un parámetro de tipo número y regrese 'true' si el parámetro es un número par o
+false si se trata de un número impar. */
 
-// let greeting = function(greetings = "amigo"){
-//     return `Hola ${greetings}`;
-// }
+function mySecondFunction(number) {
+    if (number % 2 == 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
-// console.log(greetings('Fanny'));
-// console.log(greetings());
+mySecondFunction(10);
 
-// Arrow functions
 
-let greeting = (greetings = "amigo") => {
-    return `Hola ${greetings}`;
-};
-
-console.log(greetings('Víctor'));
-console.log(greetings());
