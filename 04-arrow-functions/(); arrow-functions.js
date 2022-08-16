@@ -22,6 +22,7 @@ sayHi('Víctor');
 
 const sayHiAgain = (prefix, name) => {
     console.log(`¡Hola, ${prefix} ${name}!`)
+    console.log(arguments); // arguments
 };
 
 sayHiAgain('Sr.', 'Víctor');
