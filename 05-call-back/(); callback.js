@@ -40,3 +40,15 @@ let functionThree = () => {
 father(functionOne, functionTwo, functionThree);
 
 //Concepto de referencia
+// Síncrono y asíncrono
+
+// Callbacks, utilizados con acciones asíncronas
+
+// Petición, solicitud del clente al servidor, es una solicitud asíncrona
+
+// Función que ayude a parsear los datos (tranformar, modificar)
+
+// setTimeOut
+/* What happens when setTimeout is 0? Solution(By Examveda Team) If you call setTimeout() with a time of 0 ms, 
+the function you specify is not invoked right away. Instead, it is placed on a queue to be invoked 
+“as soon as possible” after any currently pending event handlers finish running.*/
