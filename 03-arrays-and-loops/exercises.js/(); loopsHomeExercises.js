@@ -27,26 +27,62 @@ console.log(myArrayWithFor);
 /* 2- Crear una función que reciba un arreglo de números y devuelve el valor 
 más grande que se encuentra en el arreglo */
 
-function myFunction(myNumbersArray = [91, 55, 11, 13, 77, 89, 26, 47, 81, 90]) {
+let arrayTwo = [91, 55, 11, 13, 77, 89, 26, 47, 81, 90];
 
+function myBiggestNumberFunction(array) {
+    let biggestNumber = [];
+    biggestNumber = array[0];
+    for (let i=0; i < array.length; i++) {
+        if (array[i] > biggestNumber) {
+            biggestNumber = array[i];
+        }
+    }
+    return biggestNumber;
 }
 
+console.log(myBiggestNumberFunction(arrayTwo));
 
 
-/* 3- Crear una función que pueda contar cuántos elementos de un arreglo son mayores a 
-X valor dado en los parámetros */
+/* 3- Crear una función que pueda contar cuántos elementos de un arreglo son mayores a cierto
+valor dado (X) en los parámetros */
 
+let arrayThree = [91, 55, 11, 13, 77, 89, 26, 47, 81, 90];
 
+function myBiggestNumbersFunction(array, number) {
+    let biggestNumbers = [];
+    for (let i=0; i < array.length; i++) {
+        if (array[i] > number) {
+            biggestNumbers++;
+        }
+    }
+    return biggestNumbers;
+}
+
+console.log(myBiggestNumbersFunction(arrayThree,50));
 
 
 /* 4- Crear una función que reciba un arreglo de números y regrese la lista de números 
 pares que se encuentran en el arreglo */
 
+let arrayFour = [91, 55, 11, 13, 77, 89, 26, 47, 81, 90];
 
+function findEvenNumbers(array) {
+    let  evenNumbers = [];
+    let n = 0;
+    for (let i=0; i < array.length; i++) {
+        if (array[i] % 2 == 0) {
+            evenNumbers[n] = array[i];
+            n++;
+        }
+    }
+    return evenNumbers;
+}
+console.log(findEvenNumbers(arrayFour));
 
 
 /* 5- Crear una función que pueda contar cuántas veces aparece un elemento dado en los 
-parámetros  en un arreglo también dado sus parámetros */
+parámetros en un arreglo también dado sus parámetros */
+
 
 
 
@@ -59,23 +95,47 @@ devuelve 'false' */
 
 /* 7- Crear una función que parta un arreglo por la mitad y retorne la segunda mitad del arreglo */
 
+
+
+
 /* 8- Crear una función que recibe 3 arreglos, los concatena y regresa un arreglo */
+
+
+
 
 /* 9- Crear una función que pueda generar 'n' elementos de la Serie de Fibonacci 
 donde 'n' está dado por el argumento de la función */
 
+
+
+
 /* 10- Crear una función que recibe un string y regresa 'false' si el string contiene 
 al menos una letra mayúscula */
+
+
+
 
 /* 11- Crear una función que recibe un string y retorna 'true' si la palabra dada
 es un palíndromo y 'false' si no lo es */
 
+
+
+
 /* 12- Crear una función que recibe un string con varias palabras y cambia a mayúscula
 la primera letra de cada palabra */
+
+
+
 
 /* 13- Crear una función que recibe un string con múltiples palabras y regresa
 únicamente la palabra más larga de la oración */
 
+
+
+
 /* 14- Crear una función que recibe 2 argumentos, una cadena de texto y un caracter, la
 función regresa un número que representa el número de veces que se repite el caracter
 en la cadena dada */
+
+
+
