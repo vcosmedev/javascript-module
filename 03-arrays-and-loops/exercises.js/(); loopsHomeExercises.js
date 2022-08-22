@@ -81,8 +81,21 @@ console.log(findEvenNumbers(arrayFour));
 
 
 /* 5- Crear una función que pueda contar cuántas veces aparece un elemento dado en los 
-parámetros en un arreglo también dado sus parámetros */
+parámetros de un arreglo también dado sus parámetros */
 
+let arrayFive = [91, 55, 11, 13, 77, 11, 26, 47, 11, 90];
+
+function findRepeatedNumber(array, number) {
+    let  repeatedNumber = [];
+    let n = 0;
+    for (let i=0; i < array.length; i++) {
+        if (array[i] === number) {
+            repeatedNumber++;
+        }
+    }
+    return repeatedNumber;
+}
+console.log(findRepeatedNumber(arrayFive,11));
 
 
 
