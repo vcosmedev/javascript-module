@@ -1,7 +1,7 @@
 // Callback
 // La declaración/definición de una función que pasa como parámetro a otra función para ser ejectuado posteriomente
-// Callback -> declaración deotra función
-// A UN CALLBACK PODEMOS PASARLE PARÁMETROS YA QUE FUNCIONA COMO UNA FUNCIÓIN
+// Callback -> declaración de otra función
+// A UN CALLBACK PODEMOS PASARLE PARÁMETROS YA QUE FUNCIONA COMO UNA FUNCIÓN
 
 
 //EJEMPLO1
