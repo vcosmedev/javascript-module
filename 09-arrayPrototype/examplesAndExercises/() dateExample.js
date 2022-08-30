@@ -4,6 +4,8 @@ JS provee de un tipo de dato llamado Date(objeto), con el que podemos trabajar d
 trabajar con fechas no es fácil y la primera ez que tenemos que hacerlo es muy sencillo equivocarse si no tenemos claros 
 ciertos conceptos.
 
+Se le conoce como objeto global.
+
 */
 
 // Obtenemos la fecha actual y la guardamos en la variable date
