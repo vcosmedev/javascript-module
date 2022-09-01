@@ -1,0 +1,15 @@
+
+#bbva {
+    background-color: #21364E;
+    color: white;
+    width: 300px;
+    border-radius: 5px;
+    padding: 1rem;
+}
+#bbva img {
+    width: 60px;
+    height: 50px;
+}
+#bbva p {
+    color: #B7AF90;
+}
