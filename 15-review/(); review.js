@@ -160,7 +160,7 @@ console.log(recolectionMonth[2]); // September
 
     // for
     for(let userFiveAge = 25; userFiveAge <= 40; userFiveAge++) {
-        console.log('El usuario es un adulto joven.')
+        console.log('El usuario es un adulto joven.');
     }
 
     // for ... of -> Depende de un ARREGLO -> Recorrer todos los valores de un ARREGLO
