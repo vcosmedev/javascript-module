@@ -53,7 +53,7 @@ let fruit = {
 
 // Acceder a las propiedades de un objeto
 console.log(fruit.sister.sister.sister.price); // De forma estática -> No recomendable, mejor acceder de forma dinámica
-// output-> sister is not defined???
+// expected output-> 0.99 cent
 
 let recolectionMonth = fruit.months;
 console.log(recolectionMonth[0]); // July
@@ -88,4 +88,89 @@ console.log(recolectionMonth[2]); // September
         let substractionThree = '5' - '5';
 
         console.log(substractionOne, substractonTwo, substractionThree);
+    
+    // (*) -> multiplication
+    // (/) -> division
+    // (**) -> exponentiation
 
+    let multiplication = 10 * 2;
+    let division = 10 / 2;
+    let exponentiation = 5 ** 2;
+
+    console.log(multiplication, division, exponentiation);
+
+    // Operadores lógicos
+        // &&  ||  >=  <=  ==  ===
+
+    
+    // Estructuras de control
+    // if
+
+    let human = true;
+    if(human === true) {
+        console.log('Víctor es humano.');    
+    }
+    
+    let userOneAge = 22;
+    if(userOneAge >= 18) {
+        console.log('El usuario es mayor de edad.');
+    }
+    
+    // if ... else
+    let userTwoAge = 22;
+    if(userTwoAge >= 18) {
+        console.log('El usuario es mayor de edad.');
+    }else {
+        console.log('El usuario es menor de edad.')
+    }
+    
+    // if .. else if .. else
+    let time = 13;
+    if (time < 10) {
+        greeting = "Good morning";
+    } else if (time < 20) {
+        greeting = "Good day";
+    } else {
+        greeting = "Good evening";
+    }
+
+    console.log(greeting); // expected output 'Good day'
+
+    // switch
+    let userThreeAge = 18;
+    switch(userThreeAge) {
+        case 18:
+        console.log('El usuario es mayor de edad.');
+        break;
+        case 25:
+        console.log('El usuario es un adulto joven.');
+        break;
+        default: // userThreeAge < 18:
+        console.log('El usuario es menor de edad.');
+    }
+
+    // LOOPS - CICLOS
+    // while
+    let userFourAge = 35;
+
+    while(userFourAge > 25 && userFourAge < 40) {
+        console.log('El usuario es un adulto joven.');
+        userFourAge ++; // userFourAge +=1;
+    }
+
+    // for
+    for(let userFiveAge = 25; userFiveAge <= 40; userFiveAge++) {
+        console.log('El usuario es un adulto joven.')
+    }
+
+    // for ... of -> Depende de un ARREGLO -> Recorrer todos los valores de un ARREGLO
+    // for ... in -> Depende de un OBJETO -> Recorrer todos los valores de un OBJETO 
+    // forEach -> Recorre ARRAYs. Si se quiere recorrer un OBJETO, hay que transformar el ARRAY en un OBJETO
+
+
+
+
+
+
+
+    

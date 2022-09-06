@@ -20,7 +20,7 @@ while (i < 11) {
 }
 
 
-let i= 0;
+let i = 0;
 
 function loopWhile (num) {
 
