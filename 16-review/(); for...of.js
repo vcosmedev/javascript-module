@@ -19,7 +19,7 @@ for(let prop of fruits) {
 let fruitsTwo = ['strawberry', 'pineapple', 'watermelon'];
 
 for(let prop of fruitsTwo) {
-    console.log(fruitsTwo[prop]); // Un valor en concreto***
+    console.log([prop]); // Un valor en concreto***
 }
 
 // for ... in -> muestra el índice de cada elemento, a diferencia de for ... of que muestra el valor
