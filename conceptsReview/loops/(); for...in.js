@@ -1,5 +1,6 @@
 // for ... in
-// Apareción ECMAScript 6
+// Aparición ECMAScript 6
+// Itera a través de todas las propiedades enumerables de un OBJETO
 
 const book = {
     title: 'Where The Crawdads Sing',
@@ -14,5 +15,5 @@ const book = {
 /* for (key in object) // Para cada clave en un objeto se requiere que se haga algo determinado */
 
 for (let prop in book) {
-    console.log(`The prop ${prop} conatains ${book[prop]}`)
+    console.log(`The prop ${prop} contains ${book[prop]}`);
 }
