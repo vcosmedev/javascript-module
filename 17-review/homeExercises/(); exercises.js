@@ -1,14 +1,14 @@
-// 13.- generar una función que genere un arreglo a partir de una cadena de texto por ejemplo:
+// 13.- Crear una función que genere un arreglo a partir de una cadena de texto por ejemplo:
 	let arreglo = generarArreglo('hola'); 
 	console.log(arreglo) // ['h', 'o', 'l', 'a']
 
-// 14.- generar una función que sume todos los números que están dentro de una lista de números, por ejemplo
+// 14.- Generar una función que sume todos los números que están dentro de una lista de números, por ejemplo:
 
 	let suma = sumarElementos([1,2,3,4,5]); 
 	console.log(suma) // 15
 
 
-// 15.- generar una función que quite todos los números que sean mayores al numero 10 de una lista de números, por ejemplo
+// 15.- Generar una función que quite todos los números que sean mayores al número 10 de una lista de números, por ejemplo:
 
 	let nuevoArreglo = limpiarArreglo([11,12,3,4,15,5,8,10,20,1,2]); 
 	console.log(nuevoArreglo) // [3,4,5,8,10,1,2]
@@ -24,22 +24,22 @@
 	recibimos 'domingo' entonces imprimira 6   
 */
 
-// 17.- generar una función para quitar un koder de la lista de koders
+// 17.- Generar una función para quitar un Koder de la lista de Koders:
 
-	let listaKoders = ['Hector', 'Manu', 'Jonathan', 'Fernando', 'Cintia', 'Fanny', 'Rodri', 'Rafa', 'Deni', 'Emanuel', 'Victor', 'Benjamin', 'Xavy', 'Annie']; // variable global
+	let listaKoders = ['Héctor', 'Manu', 'Jonathan', 'Fernando', 'Cintia', 'Fanny', 'Rodri', 'Rafa', 'Deni', 'Emanuel', 'Víctor', 'Benjamín', 'Xavy', 'Annie']; // Variable global
 
 	quitarKoder('Manu');
 
-	// ['Hector', 'Jonathan', 'Fernando', 'Cintia', 'Fanny', 'Rodri', 'Rafa', 'Deni', 'Emanuel', 'Victor', 'Benjamin', 'Xavy', 'Annie']; // variable global
+	// ['Héctor', 'Jonathan', 'Fernando', 'Cintia', 'Fanny', 'Rodri', 'Rafa', 'Deni', 'Emanuel', 'Víctor', 'Benjamín', 'Xavy', 'Annie']; // Variable global
 
 	quitarKoder('Rafa');
 
-	// ['Hector', 'Jonathan', 'Fernando', 'Cintia', 'Fanny', 'Rodri', 'Deni', 'Emanuel', 'Victor', 'Benjamin', 'Xavy', 'Annie']; // variable global
+	// ['Héctor', 'Jonathan', 'Fernando', 'Cintia', 'Fanny', 'Rodri', 'Deni', 'Emanuel', 'Víctor', 'Benjamín', 'Xavy', 'Annie']; // Variable global
 
 	quitarKoder('Xavy');
 
-	// ['Hector', 'Jonathan', 'Fernando', 'Cintia', 'Fanny', 'Rodri', 'Deni', 'Emanuel', 'Victor', 'Benjamin', 'Annie']; // variable global
+	// ['Héctor', 'Jonathan', 'Fernando', 'Cintia', 'Fanny', 'Rodri', 'Deni', 'Emanuel', 'Víctor', 'Benjamín', 'Annie']; // Variable global
 
 	quitarKoder('Fanny');
 
-	// ['Hector', 'Jonathan', 'Fernando', 'Cintia', 'Rodri', 'Deni', 'Emanuel', 'Victor', 'Benjamin', 'Annie']; // variable global
+	// ['Héctor', 'Jonathan', 'Fernando', 'Cintia', 'Rodri', 'Deni', 'Emanuel', 'Víctor', 'Benjamín', 'Annie']; // Variable global
