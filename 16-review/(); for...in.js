@@ -11,14 +11,13 @@ const book = {
     pages: 300
 }
 
+// Obtener el valor de una propiedad de las siguientes formas:
 book.title
 book['title']
 
 for (let prop in book) {
     console.log(prop, book[prop]);
 }
-
-
 
 
 // EJERCICIO: GENERAR UN OBJETO QUE CONTENGA UN ARRAY
