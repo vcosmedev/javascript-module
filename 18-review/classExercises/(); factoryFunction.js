@@ -18,3 +18,5 @@
     let trexRoar = trexDinosaur.roar('Raaaaaaawr'); // Realización de la acción, es decir, rugir
     console.log(trexDinosaur); // Expected output: {feeding: 'Carnivorous', era: 'Late Cretaceous', habitat: 'areas with high humidity and semi-tropical temperatures', roar: ƒ}     
     console.log(trexRoar); // Este sonido lo hizo el dinosaurio con su habilidad de rugir.
+
+    
