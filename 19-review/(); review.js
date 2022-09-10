@@ -77,10 +77,7 @@ console.log(crocodile);
 
 
 
-
-
-
-// Realizar ejemplos de otros animales (ovíparos, vivíparos).
+// TASK -> Realizar ejemplos de otros animales (ovíparos, vivíparos).
 
 
 
