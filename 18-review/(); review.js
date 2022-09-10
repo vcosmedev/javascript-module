@@ -47,3 +47,27 @@ console.log(redText); // Este texto lo escribí con mi lápiz rojo.
 console.log(greenPencil);
 console.log(greenText);
 
+
+
+// object
+    // características y métodos 
+
+// función constructora / factory construction
+    // new
+    // this
+
+// prototypes
+    // native prototypes
+
+// clase > exetensión > instancia
+
+
+
+
+
+
+
+
+
+
+
