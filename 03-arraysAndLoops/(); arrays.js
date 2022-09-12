@@ -129,3 +129,7 @@ Funcionalidades: frenos ABS, asistente de arranque, sistema de control eléctric
 
 
 */
+
+// reduce method 
+const addition = [10, 20, 30, 40].reduce((a,b) =>a + b);
+console.log(addition);
