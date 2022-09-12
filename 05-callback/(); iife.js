@@ -17,3 +17,16 @@ This prevents accessing variables within the IIFE idiom as well as polluting the
 2- The second part creates the immediately invoked function expression () through which the JavaScript engine will directly interpret the function.
 
 */
+
+(function(){
+
+})(); //IIFE inmediatly invoked function expression
+
+
+let name = 'Víctor';
+
+(function(){
+    let name = 'Aldo';
+    console.log(name);
+})();
+console.log(name);
