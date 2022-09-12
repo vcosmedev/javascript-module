@@ -1,5 +1,5 @@
 // Callback
-// La declaración/definición de una función que pasa como parámetro a otra función para ser ejectuado posteriomente
+// La declaración/definición de una función que pasa como parámetro a otra función para ser ejectuada posteriomente
 // Callback -> declaración de otra función
 // A UN CALLBACK PODEMOS PASARLE PARÁMETROS YA QUE FUNCIONA COMO UNA FUNCIÓN
 
@@ -42,6 +42,9 @@ Ejecuta primero la función 'notice'
 // 2-Avisar cuando vaya de regreso
 // 3-Avisar cuando ya esté en casa
 
+
+// Ejecución de la función con callback (callback)
+
 function goingToSupermarket(callback) /*cb*/ {
     console.log('Yendo al supermercado');
     console.log('Llegué al supermercado');
@@ -53,13 +56,20 @@ function goingToSupermarket(callback) /*cb*/ {
     callback('Hola mamá, ya estoy en casa :D');
 }
 
-// callback cb
-
-function notice(message) {
+// Callback (cb)
+function notice(message) { // La declaración de esta función está recibiendo un parámetro, un argumento (mensajes de console.log)
+    console.log('-------------');
+    console.log('tuuu... tuuu... tuuu...');
     console.log(message);
+    console.log('pip ...');
+    console.log('-------------');
 }
 
-goingToSupermarket(notice);
+goingToSupermarket(notice); // Aquí se pasa como argumento la declaración de la función
+
+// CB: función que pasa como parámetro a otra función
+
+//------------------------------------------------------------------------------------//
 
 // Aplicación de un cb, en back-end -> Manejar eventos asíncronos
 

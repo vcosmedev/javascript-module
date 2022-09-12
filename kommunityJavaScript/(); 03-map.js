@@ -82,7 +82,7 @@ console.log(getFirstLetters);
 
 
 // ['Manu Cabrera Rojas', 'Cin Ruiz Verdugo', 'Fanny Pérez Leyva'] -> ['M. C. R.', 'C. R. V.', 'F. P. L.']
-// length -> 'len go to hell'
+// length -> 'len, go to hell'
 
 function map(myArray, callback) {
     let newArray = [];
