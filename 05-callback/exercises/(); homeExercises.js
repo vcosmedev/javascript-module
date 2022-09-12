@@ -25,9 +25,3 @@ let greet2 = () => {
 
 greeting(greet2);
 
-
-
-
-
-
-
