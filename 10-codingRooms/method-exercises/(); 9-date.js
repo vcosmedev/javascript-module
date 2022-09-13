@@ -14,7 +14,7 @@ const todaysDate = () => {
     // obtengo el día del mes a partir del objeto que generé
     const day = today.getDate();
     // obtengo el número del mes
-    const month = today.getMonth();
+    const month = today.getMonth() +1;
     // obtengo el año
     const year = today.getFullYear(); 
 
