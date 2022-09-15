@@ -4,7 +4,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.2/firebase
 
 // Conexión con Firstone
 // Importar función getFirestore
-import { getFirestore, addDoc, deleteDoc, updateDoc, getDoc, collection } from "https://www.gstatic.com/firebasejs/9.6.2/firebase-firestore.js";
+import { getFirestore, addDoc, deleteDoc, doc, updateDoc, getDoc, collection } from "https://www.gstatic.com/firebasejs/9.6.2/firebase-firestore.js";
 // Función addDoc -> Permite indicar a Firsetore que queremos guardar un objeto en la base de datos que queremos
 // Función collection -> Importamos función que permite indicar a Firestore en dónde queremos guardar los objetos ('en qué canasta')
 
@@ -36,11 +36,13 @@ const db = getFirestore(); // Devuelve la conexión a la base de datos (db)
 
 export const saveTask = (title, description) => {
         const objectToBeSaved = { 
-            title: 'titulo',
-            description: 'description'
+            title: title,
+            description: description
         }; 
+        const container = collection(db, "tasks");
+        addDoc(container, objectToBeSaved); // Se declara una constante 'container' y se le indica que se quiere guardar en un db y de qué tipo y en qué canasta queremos guardarlo
     };
-
-    const container = collection(db, "tasks");
-    addDoc(container, objectToBeSaved); // Se declara una constante 'container' y se le indica que se quiere guardar en un db y de qué tipo y en qué canasta queremos guardarlo
+    
+    
+  
                    
